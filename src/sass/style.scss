@@ -1,0 +1,356 @@
+/** ************************************************************************************ **/
+/** *********** RESET **/
+/** ************************************************************************************ **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** ************************************************************************************ **/
+/** *********** CABEÇALHO **/
+/** ************************************************************************************ **/
+
+.header-container {
+}
+
+.welcome-bar {
+    display: none;
+}
+
+.header {
+	padding: 10px 0;
+}
+
+.header .button-menu{
+	margin-top: 10px;
+}
+
+.header .btn-menu-img {
+    background-image: url("/arquivos/wec-Logo-ou-branco.png");
+}
+
+.header .button-menu-xs .btn:hover {
+}
+
+.header .logo {
+	text-align: center;
+}
+
+.header .logo a {
+	display: block;
+}
+
+.header .logo a:hover {
+	opacity: 0.6;
+}
+
+.header .mini-cart {
+	position: relative;
+}
+
+.header .mini-cart .btn {
+	position: relative;
+	padding: 0 6px;
+}
+
+.header .mini-cart i {
+	margin-right: 2px;
+	font-size: 20px;
+	line-height: 32px;
+	vertical-align: top;
+}
+
+.header .mini-cart span {
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.header .mini-cart span.badge {
+	background-color: #d0011b;
+	vertical-align: top;
+	position: absolute;
+	top: -9px;
+	right: -15px;
+}
+
+#mini-cart-admake {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 -5px 15px #d0d0d0;
+	display: none;
+	position: absolute;
+	top: 34px;
+	right: 15px;
+	width: 320px;
+	z-index: 9999;
+}
+
+.col-mini-cart:hover #mini-cart-admake {
+	display: block !important;
+}
+
+#mini-cart-admake:before {
+	border: 5px solid transparent;
+	border-bottom-color: #fff;
+	display: block;
+	content: "";
+	position: absolute;
+	top: -10px;
+	right: 30px;
+}
+
+#mini-cart-admake .mini-cart-header {
+}
+
+#mini-cart-admake .mini-cart-itens {
+	display: block;
+	width: 100%;
+}
+
+#mini-cart-admake .mini-cart-item {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: 15px;
+	position: relative;
+}
+
+#mini-cart-admake .mini-cart-item:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+#mini-cart-admake .mini-cart-item.item-0 {
+	border-top: 0 none;
+}
+
+#mini-cart-admake .mini-cart-item .imagem {
+	width: 80px;
+	float: left;
+}
+
+#mini-cart-admake .mini-cart-item .imagem img {
+	max-width: 100%;
+}
+
+#mini-cart-admake .mini-cart-item .detalhes {
+	overflow: hidden;
+	display: block;
+}
+
+#mini-cart-admake .mini-cart-item .nome-produto {
+	margin: 0;
+}
+
+#mini-cart-admake .mini-cart-item .nome-produto a {
+	color: #333;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 5px 0;
+	margin: 0;
+	display: block;
+}
+
+#mini-cart-admake .mini-cart-item .qtd-valor {
+	display: block;
+	text-align: left;
+}
+
+#mini-cart-admake .mini-cart-item .qtd-valor .qtd {
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+#mini-cart-admake .mini-cart-item .qtd-valor .preco {
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+#mini-cart-admake .mini-cart-footer {
+	display: block;
+	padding: 20px;
+}
+
+#mini-cart-admake .mini-cart-footer .mini-cart-totais {
+}
+
+#mini-cart-admake #mini-cart-admake-total {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+#mini-cart-admake .mini-cart-totais span {
+	color: #333;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+#mini-cart-admake .mini-cart-botao {
+	display: block;
+	margin-top: 10px;
+}
+
+#mini-cart-admake .mini-cart-botao .btn-finalizar-compra {
+	font-size: 20px;
+	height: 50px;
+	line-height: 25px;
+	padding: 10px;
+	background-color: #5bb75b;
+	color: #000000;
+	font-weight: 400;
+}
+
+#mini-cart-admake .mini-cart-botao .btn-finalizar-compra:hover {
+	opacity: 0.8;
+}
+
+.header .search {
+	margin-top: 10px;
+}
+
+.header .search .busca {
+}
+
+.header .search .fulltext-search-box {
+	color: #999999;
+	background-color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 79%;
+	min-height: 34px;
+	margin-right: 1%;
+}
+
+.header .search .btn-buscar {
+	color: #333;
+	background-color: #fff;
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 20%;
+}
+
+.header .search .btn-buscar:hover {
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+.ui-autocomplete {
+	background-color: #fff;
+	padding: 20px;
+	margin: 5px 0 0 0;
+	width: 320px !important;
+	box-shadow: 0 -5px 15px #d0d0d0;
+	border-radius: 4px;
+}
+
+.ui-autocomplete:before {
+	border: 5px solid transparent;
+	border-bottom-color: #fff;
+	content: "";
+	position: absolute;
+	left: 30px;
+	top: -10px;
+}
+
+.ui-autocomplete .ui-menu-item {
+	display: block;
+	padding: 6px 0;
+}
+
+.ui-autocomplete .ui-menu-item a {
+	color: #777;
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.ui-autocomplete .ui-menu-item a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.ui-autocomplete .ui-menu-item img {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.header .sing-in {
+}
+
+.header .sing-in a {
+	padding: 0 10px;
+}
+
+.header .sing-in a:hover {
+}
+
+.header .sing-in a .fa {
+	font-size: 20px;
+	line-height: 32px;
+}

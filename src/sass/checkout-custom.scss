@@ -1,0 +1,222 @@
+﻿@media (min-width: 1200px) { 
+  @import "http://fonts.googleapis.com/css?family=Oswald:400,300";
+  body {
+    padding-top: 30px;
+  }
+  .container {
+    width: 1170px;
+  }
+  .container-cart,
+  .container-order-form {
+    width: 970px;
+  }
+  .masthead {
+    padding: 10px 5px 0;
+  }
+  .masthead h3 {
+    font-size: 24.5px;
+    margin: 10px 0;
+  }
+  .masthead h1,
+  .masthead h2,
+  .masthead h3 {
+    line-height: 40px;
+  }
+  .masthead h1,
+  .masthead h2,
+  .masthead h3,
+  .masthead h4,
+  .masthead h5,
+  .masthead h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+  }
+  #footerCredits {
+    background-color: #F5F5F5;
+    padding: 60px 10px;
+  }
+  #footerCredits img {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  h1.lead {
+    margin-top: 0;
+  }
+  .valor-por {
+    font-size: 36px;
+    margin-top: 4px;
+    display: block;
+    line-height: 140%;
+  }
+  .descricao-preco {
+    margin-top: 10px;
+  }
+  .buy-button {
+    float: right;
+    width: 30%;
+    font-weight: bold;
+  }
+  nav {
+    display: block;
+  }
+  .nav {
+    margin-bottom: 20px;
+    margin-left: 0;
+    list-style: none;
+  }
+  .nav > li > a {
+    display: block;
+    font-size: 14px;
+  }
+  .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #eeeeee;
+  }
+  .nav > li > a > img {
+    max-width: none;
+  }
+  .nav > .pull-right {
+    float: right;
+  }
+  .nav-tabs > li,
+  .nav-pills > li {
+    float: left;
+  }
+  .nav-tabs > li > a,
+  .nav-pills > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+  }
+  .nav-pills > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .product-name .brand-name,
+  .product-name .seller {
+    display: none;
+  }
+  .steps-view {
+    width: 422px;
+  }
+  .mini-cart {
+    text-shadow: 0 1px 0px #fff;
+    position: relative;
+  }
+  .mini-cart .summary-template-holder,
+  .mini-cart h2 {
+    background: #f7f7f7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px dotted #eee;
+    padding-top: 8px;
+  }
+  .mini-cart .cart-template-holder {
+    background: #fff;
+    border-right: 3px solid #F7F7F7;
+    border-left: 3px solid #F7F7F7;
+  }
+  .mini-cart h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 4px 6px;
+    text-align: right;
+    color: #aaa;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .mini-cart .cart {
+    margin-bottom: 0;
+    padding: 1px 3px 6px 5px;
+  }
+  .mini-cart .monetary,
+  .mini-cart .quantity-price {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .mini-cart .cart table tbody tr td.quantity-price {
+    float: right;
+    margin-right: 6px;
+  }
+  .mini-cart .info {
+    text-align: right;
+    width: 58%;
+  }
+  .mini-cart .info,
+  .mini-cart .monetary {
+    padding-top: 6px;
+  }
+  .mini-cart .table tfoot td {
+    color: #468847;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 12px;
+  }
+  .mini-cart .product-item {
+    padding-bottom: 6px;
+  }
+  .mini-cart .product-item .shipping-date,
+  .mini-cart .product-item .quantity-price {
+    font-size: 11px;
+    padding: 10px 0 4px 0;
+  }
+  .mini-cart .totalizers {
+    margin-bottom: 10px;
+  }
+  .mini-cart .link-cart {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .locale {
+    display: none;
+  }
+}
+@media (max-width: 480px) { 
+  #header{
+    background-color: #2982d4;
+    color: #fff;
+    height: 45px;
+    width: 100%;
+    padding: 0 10px;
+    margin-left: -10px;
+  }
+  #header button.back{
+    background-color: transparent;
+    border: none;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: normal;
+    padding: 0;
+  }
+  #header button.back .arrow{
+    width: 17px;
+    height: 23px;
+    background-image: url('/arquivos/playkids-mobile-sprite.png');
+    background-size: 320px auto;
+    background-repeat: no-repeat;
+    background-position: -177px -60px;
+    float: left;
+  }
+  #header h1{
+    float: right;
+    margin: 3px 0 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 25px;
+    width: 93px;
+    height: 26px;
+    color: #FFF;
+  }
+}
