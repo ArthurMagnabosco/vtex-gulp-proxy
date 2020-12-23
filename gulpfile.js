@@ -12,15 +12,7 @@ const gulp        = require("gulp"),
 let 
 storename = 'wecode',
 
-paths = {
-    sass: bases.src + '/sass/**/*.scss',
-    sassCheckout: bases.src + '/checkout/sass/**/*.scss',
-    js: bases.src + '/js/**/*.js',
-    jsCheckout: bases.src + '/checkout/js/**/*.js',
-    images: [bases.src + '/images/**/*.png', bases.src + '/images/**/*.jpg', bases.src + '/images/**/*.gif'],
-    imagesCheckout: [bases.src + '/checkout/images/**/*.png', bases.src + '/checkout/images/**/*.jpg', bases.src + '/checkout/images/**/*.gif'],
-    copy: [bases.src + '/**/*.eot', bases.src + '/**/*.svg', bases.src + '/**/*.woff', bases.src + '/**/*.woff2']
-},
+
 environment = 'dev',
 sassStyle = {},
 imageCompress = {},
