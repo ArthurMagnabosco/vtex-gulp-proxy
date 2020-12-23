@@ -11,10 +11,7 @@ const gulp        = require("gulp"),
 
 let 
 storename = 'wecode',
-bases = {
-    src: './src',
-    build: './build/arquivos'
-},
+
 paths = {
     sass: bases.src + '/sass/**/*.scss',
     sassCheckout: bases.src + '/checkout/sass/**/*.scss',
